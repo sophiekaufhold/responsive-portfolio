@@ -1,4 +1,6 @@
 :root {
+  --primary-font: "Rubik", sans-serif;
+  --secondary-font: "Lora", serif;
   --primary-color: #212429;
   --secondary-color: #f5f2fe;
   --background-color: #f8ede3;
@@ -11,7 +13,7 @@
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--primary-font);
 }
 
 h1,
@@ -60,8 +62,8 @@ h3 {
   color: var(--primary-color);
 }
 
-.lora-font {
-  font-family: "Lora", serif;
+.secondary-font {
+  font-family: var(--secondary-font);
 }
 
 .mail-link {
@@ -105,8 +107,17 @@ h3 {
   padding-bottom: 100px;
 }
 
+.header-2 {
+  background-color: var(--background-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.information {
+  font-size: 18px;
+  line-height: 1.5;
 
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 50px;
@@ -114,7 +125,8 @@ h3 {
   h2 {
     font-size: 30px;
   }
-  h3 {
+  h3, .information {
     font-size: 16px;
   }
+
 }
