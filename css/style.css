@@ -28,12 +28,17 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 35px;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+}
+.bridge {
+  font-size: 18px;
+  font-style: italic;
+  font-family: var(--secondary-font);
 }
 
 .btn-primary {
@@ -132,5 +137,11 @@ h3 {
     font-size: 16px;
     margin-right: 20px;
     margin-left: 20px;
+  }
+  .heading-project {
+    font-size: 30px;
+  }
+  .bridge {
+    font-size: 16px;
   }
 }
