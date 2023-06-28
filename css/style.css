@@ -36,6 +36,7 @@ h3 {
   opacity: 0.7;
 }
 
+
 .bridge {
   font-size: 18px;
   font-style: italic;
@@ -132,8 +133,7 @@ h3 {
   h2 {
     font-size: 30px;
   }
-  h3,
-  .information,
+  h3, .information,
   .role {
     font-size: 16px;
     margin-right: 20px;
