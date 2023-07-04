@@ -36,7 +36,6 @@ h3 {
   opacity: 0.7;
 }
 
-
 .bridge {
   font-size: 18px;
   font-style: italic;
@@ -126,6 +125,11 @@ h3 {
   line-height: 1.5;
 }
 
+.information-secondary {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 40px;
@@ -133,16 +137,24 @@ h3 {
   h2 {
     font-size: 30px;
   }
-  h3, .information,
+  h3,
+  .information,
   .role {
     font-size: 16px;
     margin-right: 20px;
     margin-left: 20px;
   }
+
   .heading-project {
     font-size: 30px;
   }
   .bridge {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  h4 {
+    font-size: 20px;
   }
 }
