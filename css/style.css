@@ -77,7 +77,7 @@ h3 {
   justify-content: center;
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .mail-link:hover {
